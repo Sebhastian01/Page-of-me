@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    }
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    
+    header{
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: #6d3c11;
+        position: fixed;
+        width: 100%;
+    }
+    header h2{
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .home{
+        display: flex;
+        flex-direction: row ;
+        height: 43rem;
+        width: 100%;
+    }
+    .izquierda{
+        width: 40%;
+        height: 100%;
+    }
+    .izquierda img{
+        width: 100%;
+        height: 100%;
+    }
+    .derecha{
+        width: 60%;
+        height: 100%;
+    }
+    .derecha img{
+        width: 100%;
+        height: 100%;
+    }
+    .text1{
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+        flex-direction: column;
+        align-items: center;
+        background-color: #e8cb9a;
+    }
+    .text1 h1{
+        font-size: 10rem;
+    }
+    .text1 p{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .top{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 4rem;
+        background-color: #e8cb9a;
+    }
+    .top img{
+        width: 25rem;
+        border-radius: 1rem;
+    }
+    .p-soy{
+        text-align: center;
+        padding-top: .5rem;
+        font-size: 3rem;
+    }
+    .p-top{
+        font-size: 2rem;
+        padding-top: 8rem;
+        padding-left: 5rem; 
+        width: 50%;
+    }
+    .p-top h2{
+        margin-top: -5rem;
+        padding-bottom: 4rem;
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
+    }
+    .hobbies{
+        display: flex;
+        justify-content: space-around;
+        padding: 5rem;
+        background-color: #e8cb9a;
+    }
+    .hobbies img{
+        width: 60%;
+        border-radius: 1rem;
+    }
+    .text-hobbies{
+        font-size: 2rem;
+    }
+    .h-t{
+        /*margin-left: 40rem;*/
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+        background-color: #e8cb9a;
+    }
+    .pr{
+        width: 100rem;
+    }
+    .im-p{
+        padding: 2rem;
+    }
