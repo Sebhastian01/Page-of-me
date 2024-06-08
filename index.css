@@ -70,10 +70,12 @@ body{
         justify-content: space-around;
         padding-top: 4rem;
         background-color: #e8cb9a;
+        align-items: center;
     }
     .top img{
         width: 25rem;
         border-radius: 1rem;
+        text-align: center;
     }
     .p-soy{
         text-align: center;
@@ -95,23 +97,42 @@ body{
     }
     .hobbies{
         display: flex;
-        justify-content: space-around;
-        padding: 5rem;
         background-color: #e8cb9a;
+        padding: 4rem;
     }
+    
     .hobbies img{
-        width: 60%;
         border-radius: 1rem;
     }
+
+    .programtext{
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .programtext h2{
+        padding: 2rem;
+    }
+
+    .programtext p{
+        padding: 2rem;
+    }
+
     .text-hobbies{
         font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 50;
     }
+
     .h-t{
-        /*margin-left: 40rem;*/
         display: flex;
         justify-content: center;
         font-size: 4rem;
         background-color: #e8cb9a;
+        padding: 2rem;
     }
     .pr{
         width: 100rem;
