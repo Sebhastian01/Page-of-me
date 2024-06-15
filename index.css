@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #e8cb9a;
 }
     
     header{
@@ -127,6 +128,10 @@ body{
         width: 50;
     }
 
+    .text-hobbies h2{
+        font-size: 3rem;
+    }
+
     .h-t{
         display: flex;
         justify-content: center;
@@ -138,5 +143,22 @@ body{
         width: 100rem;
     }
     .im-p{
+        padding: 2rem;
+    }
+
+    .rutine {
+        display: flex;
+        background-color: #e8cb9a;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rutine h2 {
+        font-size: 3rem;
+    }
+    .rutine img{
+        width: 50%;
+        height: 70%;
+        height: auto;
         padding: 2rem;
     }
